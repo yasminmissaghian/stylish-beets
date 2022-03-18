@@ -4,13 +4,9 @@ html {
 
 *, *::before, *::after {
   box-sizing: inherit;
-}
-
-html {
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Serif","PT Sans", sans-serif;
   font-weight: normal;
-  line-height: 1.5
-
+  line-height: 1.5;
 }
 
 body {
@@ -35,7 +31,11 @@ h1, h2 {
   font-size: 1.5rem;
 }
 
-figure {
+img {
+  align-items: center;
+}
+
+figcaption {
   font-style: italic;
   text-align: center;
 }
