@@ -4,9 +4,10 @@ html {
 
 *, *::before, *::after {
   box-sizing: inherit;
-  font-family: "PT Serif","PT Sans", sans-serif;
+  font-family: "PT Serif", "PT Sans", sans-serif;
   font-weight: normal;
   line-height: 1.5;
+  color: #222;
 }
 
 body {
@@ -16,13 +17,22 @@ body {
 nav ol li {
   color: #8f2440;
   list-style: none;
-  font-size: 1.5rem;
+  font-size: 1.125rem;
+}
+
+a {
+  text-decoration: none;
 }
 
 a:link {
   color: #8f2440;
   font-weight: bold;
   text-decoration: none;
+}
+
+a:hover {
+  color: #3f1622;
+  text-decoration: underline;
 }
 
 h1, h2 {
@@ -33,6 +43,7 @@ h1, h2 {
 
 img {
   align-items: center;
+  width: 100%;
 }
 
 figcaption {
@@ -42,13 +53,16 @@ figcaption {
 
 #p1 {
   font-weight: bold;
-  font-size: 1.25rem;
+  font-size: 1.125rem;
+}
+
+main b {
+  font-weight: bold;
 }
 
 blockquote p {
   font-style: italic;
   font-size: 1.5rem;
-  text-align: center;
 }
 
 ol li {
@@ -65,4 +79,5 @@ dl dt {
 
 aside ul li {
   list-style-type: circle;
+  font-size: .8rem;
 }
