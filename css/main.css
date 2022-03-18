@@ -5,3 +5,64 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+html {
+  font-family: "PT Sans", sans-serif;
+  font-weight: normal;
+  line-height: 1.5
+
+}
+
+body {
+  background-color: #c9b5ab;
+}
+
+nav ol li {
+  color: #8f2440;
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+a:link {
+  color: #8f2440;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+h1, h2 {
+  color: #3f1622;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+figure {
+  font-style: italic;
+  text-align: center;
+}
+
+#p1 {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+blockquote p {
+  font-style: italic;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+ol li {
+  list-style-type: lower-greek;
+}
+
+#serving-size {
+  font-style: italic;
+}
+
+dl dt {
+  font-weight: bold;
+}
+
+aside ul li {
+  list-style-type: circle;
+}
